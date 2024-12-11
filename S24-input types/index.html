@@ -8,58 +8,28 @@
 </head>
 <body>
     <form>
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend>Basic Details</legend>
+            <div>
+                <label>First Name</label>
+                <input type="text">
+            </div>
+                <div>
+                    <label>Last Name</label>
+                </div>
+        </fieldset>
         <div>
-            <label>button</label>
-            <input type="button" value="Click Here">
-        </div>
-        <div>
-            <label>checkbox</label>
-            <input type="checkbox">
-        </div>
-        <div>
-            <label>color</label>
-            <input type="color">
-        </div>
-        <div>
-            <label>date</label>
-            <input type="date">
-        </div>
-        <div>
-            <label>datetime-local</label>
-            <input type="datetime-local">
-        </div>
-        <div>
-            <label>email</label>
+            <label>Email Id</label>
             <input type="email">
         </div>
         <div>
-            <label>file</label>
-            <input type="file" multiple>
+            <label>Mobile Number</label>
+            <input type="number">
         </div>
-        <div>
-            <label>hidden</label>
-            <input type="hidden">
+            <label>email</label>
+            <input typpe=email">
         </div>      
-        <div>
-            <label>image</label>
-            <input type="image" src="data:image/jpeg;base64,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">
-        </div>
-        <div>
-            <label>month</label>
-            <input type="month">
-        </div>
-                <div>
-                    <label>number</label>
-                    <input type="number">
-                </div>
-                <div>
-                    <label>password</label>
-                    <input type="password">
-                </div>
-        <div>
-            <label>radio</label>
-            <input type="radio">
-        </div>
         <div>
             <label>Gender</label>
             <input type="radio" name="gender">
@@ -74,6 +44,22 @@
             <input type="radio" name="ms">
             <label>Married</label>
          </div> 
+           <div>
+                <label>Date Of Birth</label> 
+               <input type="text">
+           </div>
+             </div>
+                    <label>Address</label>
+                    <input type="text">
+                </div>
+        <div>
+             <label>City</label>
+            <input type="text">
+        </div>
+        <div>
+            <label>PinCode</label>
+            <input type="number"
+        </div>
          <div>
             <label>Languages Known</label>
             <input type="checkbox">
@@ -85,17 +71,9 @@
             <input type="checkbox">
             <label>Kannada</label>
          </div>  
-        <div>
-            <label>range</label>
-            <input type="range">
-        </div>
                 <div>
                     <label>reset</label>
                     <input type="reset" value="Clear Values">
-                </div>
-                <div>
-                    <label>search</label>
-                    <input type="search">
                 </div>
         <div>
             <label>submit</label>
